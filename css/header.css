@@ -266,3 +266,8 @@
     padding-left: 15px;
 }
 
+li > ul > li:not(.recommendedchannel-seemore):hover {
+    color: orangered;
+    text-shadow: var(--main-text-shadow);
+}
+

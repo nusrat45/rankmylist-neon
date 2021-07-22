@@ -60,9 +60,11 @@
     text-overflow: ellipsis;
 }
 
-.recommendedchannel-seemore {
-    display: flex;
-    align-items: center;
+.nested-dropdown .recommendedchannel-seemore {
+    border: none;
+    font-size: 11px;
+    text-align: center;
+    color: lightslategray;
 }
 
 .up-icon {

@@ -32,12 +32,11 @@
     transition: all 100ms linear;
 }
 
-/* .css-toggle-button-hidden:checked + label + .recommened-channels-dropdown {
-    visibility: visible;
-    height: 684px;
+.css-toggle-button-hidden:checked + label + ul {
+    display: block;
 }
 
-.css-toggle-button-hidden:checked + label + .list-topic-dropdown {
+/* .css-toggle-button-hidden:checked + label + .list-topic-dropdown {
     visibility: visible;
     height: 684px;
 } */
@@ -48,7 +47,13 @@
     text-shadow: var(--main-text-shadow);
 }
 
-.css-toggle-button-hidden:checked + .nav-creatcontent-title{
+.css-toggle-button-hidden:checked + .nav-creatcontent-title {
+    color: red;
+    border-bottom: 2px solid red;
+    text-shadow: var(--main-text-shadow);
+}
+
+.css-toggle-button-hidden:checked + .nav-user-title {
     color: red;
     border-bottom: 2px solid red;
     text-shadow: var(--main-text-shadow);
