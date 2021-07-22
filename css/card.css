@@ -1,0 +1,167 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--main-bg-color-dark);
+    box-shadow: var(--card-box-shadow);
+    width: 160px;
+    height: 250px;
+    padding: 6px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.card:hover {
+    box-shadow: var(--main-box-shadow);
+}
+
+.card-top {
+    height: 50px;
+    margin-bottom: 15px;
+}
+
+.content-creator-link {
+    font-size: 13px;
+    color: lightslategray;
+}
+
+
+.content-creator-link:hover {
+    text-decoration: underline;
+}
+
+.card-middle {
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    width: 160px;
+    height: 160px;
+    overflow: hidden;
+    overflow: hidden;
+}
+
+.contentname {
+    position: absolute;
+    z-index: 1;
+    padding: 2px;
+    width: 25px;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.7);
+    font-size: 12px;
+}
+
+
+.card:hover .top-rankitem-one-image-holder img { 
+    transform: scale(1.1);
+}
+
+ .top-rankitem-one-image-holder img {
+    transition: transform 500ms linear;
+}
+
+.card-bottom {
+    width: 160px;
+    background-color: rgba(128, 128, 128, .25);
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+}
+
+.other-items-holder {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: -20px;
+    
+}
+
+.top-other-rankmitems {
+    position: relative;
+    overflow: hidden;
+    height: 50px;
+    width: 50px;
+    border-radius: 3px;
+}
+
+.top-other-rankmitems-image-holder {
+    width: 50px;
+    height: 50px;
+}
+
+.top-other-rankmitems-image-holder img {
+    width: 100%;
+}
+
+.top-other-rankmitems-position-title {
+    position: absolute;
+    width: 50px;
+    font-size: 12px;
+    text-align: center;
+    background: rgba(0, 0, 0, .7);
+    top: 36px;
+    font-weight: bold;
+}
+
+.plus-items-left-holder {
+    position: relative;
+    height: 35px;
+    width: 35px;
+    font-size: 12px;
+    text-align: center;
+    font-weight: bold;
+    line-height: 0.7;
+    margin-top: 0px;
+    line-height: 1.;
+    border-radius: 50%;
+    background: var(--main-bg-color-dark);
+    box-shadow: var(--card-box-shadow);
+    font-family: roboto;
+}
+
+.plus-items-left-holder p {
+    margin-top: 8px;
+}
+
+.content-response-container {
+    width: calc(100% - 22px);
+    justify-content: space-evenly;
+    align-self: center;
+    align-items: center;
+    margin-top: 8px;
+    margin-bottom: 5px;
+}
+
+.likeicon {
+    width: 12px;
+    height: 12px;
+    background-image: url(../images/rml-icons/likedislikeicon.png);
+    background-position: 0px 0px;
+    background-size: 12px 72px;
+}
+
+.dislikeicon {
+    width: 12px;
+    height: 12px;
+    background-image: url(../images/rml-icons/likedislikeicon.png);
+    background-position: 0px 60px;
+    background-size: 12px 72px;
+}
+
+.viewicon {
+    width: 12px;
+    height: 12px;
+    background-image: url(../images/rml-icons/likedislikeicon.png);
+    background-position: 0px 24px;
+    background-size: 12px 72px;
+}
+
+.rankicon {
+    width: 12px;
+    height: 12px;
+    background-image: url(../images/rml-icons/likedislikeicon.png);
+    background-position: 0px 36px;
+    background-size: 12px 72px;
+}
+
+.likenumber, .dislikenumber, .viewnumber, .ranknumber {
+    font-size: 12px;
+}
+
+
+

@@ -1,0 +1,194 @@
+@import url('commoncssvariable.css');
+
+@import url('general.css');
+
+@import url('toogle-btn.css');
+
+@import url('header.css');
+
+@import url('leftsidemenubar.css');
+
+@import url('slider.css');
+
+@import url('card.css');
+
+@import url('rightsidemenubar.css');
+
+
+.main {
+
+    position: absolute;
+    top: 80px;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.leftside-container {
+    position: relative;
+    width: 185px;
+    background-color: var(--main-bg-color-light);
+}
+
+.rml-sidebar-menu {
+    cursor: pointer;
+}
+
+.rml-sidebar-menu:hover {
+    color: red;
+    text-shadow: var(--main-text-shadow);
+}
+
+.rml-logo {
+    cursor: pointer;
+    transition: transform 250ms linear;
+}
+
+.rml-logo:hover {
+    transform: scale(0.98);
+}
+
+
+.middle-container {
+    position: relative;
+    width: calc(100% - 470px);
+}
+
+.rightside-container {
+    position: relative;
+    width: 260px;
+    background-color: var(--main-bg-color-light);
+}
+
+.trending-section {
+    background-color: var(--main-bg-color-light);
+    margin-bottom: 20px;
+}
+
+.trending-content-holder {
+    display: flex;
+    flex-wrap: wrap;
+    /* display: grid;
+    grid-template-columns: repeat(4, 22%); */
+    margin-top: 20px;
+    justify-content: space-evenly;
+}
+
+
+.caption {
+    background-color: var(--caption-bg-color);
+    height: 40px;
+    font-size: 20px;
+    padding-left: 10px;
+    font-family: var(--main-font-family);
+    line-height: 2;
+}
+
+.trending-icon{
+    height: 40px;
+    width: 40px;
+    background-image: url("../images/rml-icons/icons_index.png");
+    background-position: 40px 277px;
+    background-size: 150px 497px;
+}
+
+.gridlist-toggle-icon {
+    margin-left: auto;
+    margin-right: 10px;
+}
+
+.fa-th {
+    font-size: 20px;
+}
+
+@media only screen and (max-width: 1025px) {
+    .main {
+        justify-content: space-evenly;
+    }
+
+    .leftside-container {
+        display: none;
+        position: absolute;
+        margin-left: 0px;
+        left: 5px;
+        background: black;
+        z-index: 3;
+    }
+
+    .middle-container {
+        width: calc(100% - 280px) !important;
+    }
+    .nav-right {
+        width: 247px;
+    }
+
+    .creatcontent p {
+        font-size: 14px;
+    } 
+
+    .nav-username {
+        font-size: 13px;
+    }
+
+    .css-toggle-button-hidden-2:checked + .leftside-container {
+        /* margin-left: -190px; */
+        /* margin-left: -228px; */
+        display: block;
+    }
+
+}
+
+@media only screen and (max-width: 900px) {
+    .middle-container {
+        width: calc(100% - 20px) !important;
+    }
+
+    .rightside-container {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .navbar {
+        padding: 0px 0.8% 0px 0.6%;
+    }
+    .nav-middle {
+        width: 50%;
+    }
+
+    .nav-right {
+        width: 80px;
+    }
+
+    .moreicons-dropdown img {
+        width: 35px;
+    }
+
+    .nav-username {
+        display: none;
+    }
+
+    .list-item:first-child {
+        display: block;
+    }
+
+    .list-item:not(:last-child):not(:first-child) {
+        display: none;
+    }
+
+}
+
+@media only screen and (max-width: 591px) {
+    .nav-middle {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 380px) {
+    .nav-middle {
+        display: none;
+    }
+}
+
+
+
+

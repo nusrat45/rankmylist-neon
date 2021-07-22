@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #000;
+    color: #c9c9c9;
+    font-family: 'roboto';
+    font-size: 14px;
+}
+
+ul {
+    list-style: none;
+}
+
+.fa {
+    font-size: 14px;
+}
+
+.flex-container-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-container-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.equal-size-flex-item {
+    flex: 1 1 0;
+}
+
+
+
