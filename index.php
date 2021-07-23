@@ -19,15 +19,17 @@
     <?php include('includes/header.php'); ?>
     <main class="main flex-container-row">
         <?php include('includes/leftsidemenu.php'); ?>
-        <section class="middle-container">
-            <?php include('includes/slider.php'); ?>       
-            <?php include('includes/trendingcontent.php'); ?>
-            <?php include('includes/recommendedcontent.php'); ?>
-            <?php include('includes/featuredcontent.php'); ?>
-            <?php include('includes/popularcontent.php'); ?>
-            <?php include('includes/latestcontent.php'); ?>
+        <section class="main-other-two-sections-holder flex-container-row">
+            <section class="middle-container">
+                <?php include('includes/slider.php'); ?>       
+                <?php include('includes/trendingcontent.php'); ?>
+                <?php include('includes/recommendedcontent.php'); ?>
+                <?php include('includes/featuredcontent.php'); ?>
+                <?php include('includes/popularcontent.php'); ?>
+                <?php include('includes/latestcontent.php'); ?>
+            </section>
+        <?php include('includes/rightsidecontent.php'); ?>
         </section>
-       <?php include('includes/rightsidecontent.php'); ?>
     </main>
 </body>
 </html>

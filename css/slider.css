@@ -7,7 +7,8 @@
     height: 293px;
     margin-bottom: 20px;
     border-radius: 5px;
-    box-shadow: 0px 0px 6px inset grey
+    box-shadow: 0px 0px 6px inset grey;
+    overflow: hidden;
 }
 
 .slider-content-holder {
@@ -17,6 +18,7 @@
 }
 
 .slider {
+    opacity: 0;
     position: absolute;
     width: 100%;
     height: 260px;
@@ -24,14 +26,16 @@
 }
 
 /*** TWO PARTS SLIDERS ***/
-.double-slider:nth-child(odd) .double-slider-under-img-text {
+.double-slider-odd .double-slider-under-img-text {
     font-family: sans-serif;
     font-size: 15px;
-    margin: 10px 25px 0px 25px;
+    margin: 25px 25px 0px 25px;
     text-align: center;
+    /* transform: translateY(-10px);
+    transition: transform 250ms linear; */
 }
 
-.double-slider:nth-child(odd) .double-slider-over-img-text {
+.double-slider-odd .double-slider-over-img-text {
     position: absolute;
     width: calc(100% - 54px);
     height: 28px;
@@ -41,9 +45,14 @@
     color: var(--bright-text-color);
     line-height: 2;
     padding-left: 10px;
+    
 }
 
-.double-slider:nth-child(odd) .double-slider-left-side {
+.double-slider-over-img-text p {
+    width: 0;
+}
+
+.double-slider-odd .double-slider-left-side {
     background-color: #fff;
     width: calc(70% - 0px);
     background-image: url('../images/slider_img/slider1.jpg');
@@ -53,11 +62,11 @@
     overflow: hidden;
 }
 
-.double-slider:nth-child(odd) .double-slider-left-side img {
+.double-slider-odd .double-slider-left-side img {
     width: 100%;
 }
 
-.double-slider:nth-child(odd) .double-slider-right-side {
+.double-slider-odd .double-slider-right-side {
     width: 30%;
     display: flex;
     justify-content: center;
@@ -66,7 +75,12 @@
     background-color: black;
 }
 
-.double-slider:nth-child(odd) .double-slider-breaker {
+.double-slider-right-side {
+    /* transform: translateY(10px);
+    transition: transform 250ms linear; */
+}
+
+.double-slider-odd .double-slider-breaker {
     width: 0;
     height: 0;
     border-bottom: 260px solid black;
@@ -76,18 +90,18 @@
     bottom: 0px;
 }
 
-.double-slider:nth-child(even) .double-slider-right-side {
+.double-slider-even .double-slider-right-side {
     background-color: #fff;
     position: relative;
     width: 65%;
 }
 
-.double-slider:nth-child(even) .double-slider-right-side img {
+.double-slider-even .double-slider-right-side img {
     width: 100%;
     height: 100%;
 }
 
-.double-slider:nth-child(even) .double-slider-left-side {
+.double-slider-even .double-slider-left-side {
     width: 35%;
     display: flex;
     justify-content: center;
@@ -96,7 +110,7 @@
     background-color: black;
 }
 
-.double-slider:nth-child(even) .double-slider-breaker {
+.double-slider-even .double-slider-breaker {
     width: 0;
     height: 0;
     border-top: 260px solid black;
@@ -104,16 +118,19 @@
     position: absolute;
     left: 35%;
     top: 0px;
+    z-index: 2;
 }
 
-.double-slider:nth-child(even) .double-slider-under-img-text {
+.double-slider-even .double-slider-under-img-text {
     font-family: sans-serif;
     font-size: 15px;
-    margin: 10px 25px 0px 25px;
+    margin: 25px 25px 0px 25px;
     text-align: center;
+    /* transform: translateY(-10px);
+    transition: transform 250ms linear; */
 }
 
-.double-slider:nth-child(even) .double-slider-over-img-text {
+.double-slider-even .double-slider-over-img-text {
     position: absolute;
     width: calc(100% - 10px);
     height: 28px;
@@ -203,13 +220,13 @@
 }
 
 .single-slider-1 .slider-content-2:hover ~ .single-slider-bg img {
-    transform: translateY(-20px);
+    transform: translateY(-20px) scale(1.1);
     transition: transform 1s linear;
     content: url('../images/slider_img/slider14.jpg');
 }
 
 .single-slider-1 .slider-content-3:hover ~ .single-slider-bg img {
-    transform: translateY(-20px);
+    transform: translateY(-20px) scale(1.1);
     transition: transform 1s linear;
     content: url('../images/slider_img/slider15.jpg');
 }
@@ -218,19 +235,19 @@
     transform: scale(1.1);
 }
 .single-slider-2 .slider-content-1:hover ~ .single-slider-bg img {
-    transform: translateY(-400px);
+    transform: translateY(-20px) scale(1.1);
     transition: transform 1s linear;
     content: url('../images/slider_img/slider16.jpg');
 }
 
 .single-slider-2 .slider-content-2:hover ~ .single-slider-bg img {
-    transform: translateY(-771px);
+    transform: translateY(-20px) scale(1.1);
     transition: transform 1s linear;
     content: url('../images/slider_img/slider17.jpg');
 }
 
 .single-slider-2 .slider-content-3:hover ~ .single-slider-bg img {
-    transform: translateY(-771px);
+    transform: translateY(-20px) scale(1.1);
     transition: transform 1s linear;
     content: url('../images/slider_img/slider18.jpg');
 }
@@ -284,7 +301,7 @@
     border-bottom-right-radius: 5px;
 }
 
-.slider-btn-container {
+.slider-btn {
     display: none;
 }
 
@@ -309,9 +326,43 @@
     background-color: var(--hover-text-color);
 }
 
-.slider:not(:nth-child(1)) {
-    display: none;
+.slider-btn:checked + div {
+    opacity: 1;
+    transition: all 250ms linear;
 }
-/* slider height: 183px; */
 
-/* slider-container height: 216px; */
+.slider-btn:checked + .double-slider-odd > .double-slider-right-side > .double-slider-under-img-text {
+    transform: translateY(-10px);
+    transition: transform 250ms linear;
+}
+
+.slider-btn:checked + .double-slider-odd > .double-slider-right-side > img {
+    transform: translateY(10px);
+    transition: transform 250ms linear;
+}
+
+.slider-btn:checked + .double-slider-odd > .double-slider-left-side > .double-slider-over-img-text > p {
+    width: 100%;
+    transition: width 2s ease-out;
+}
+
+.slider-btn:checked + .double-slider-even > .double-slider-left-side > .double-slider-under-img-text {
+    transform: translateY(-10px);
+    transition: transform 250ms linear;
+}
+
+.slider-btn:checked + .double-slider-even > .double-slider-left-side > img {
+    transform: translateY(10px);
+    transition: transform 250ms linear;
+}
+
+.slider-btn:checked + .double-slider-even > .double-slider-right-side > .double-slider-over-img-text > p {
+    width: 100%;
+    transition: width 2s ease-out;
+}
+
+.slider-btn-2:focus {
+    outline: none;
+    background-color: orangered;
+}
+

@@ -2,7 +2,7 @@
 
 @import url('general.css');
 
-@import url('toogle-btn.css');
+@import url('css-clicker.css');
 
 @import url('header.css');
 
@@ -23,10 +23,22 @@
     justify-content: space-around;
 }
 
+.main-other-two-sections-holder {
+    position: absolute;
+    right: 0px;
+    width: calc(100% - 190px);
+    justify-content: space-evenly;
+}
+
 .leftside-container {
-    position: relative;
+    position: fixed;
+    left: 5px;
+    height: 500px;
+    overflow: hidden;
     width: 185px;
-    background-color: var(--main-bg-color-light);
+    margin: 0px auto;
+    background-color: black;
+    z-index: 9;
 }
 
 .rml-sidebar-menu {
@@ -50,7 +62,7 @@
 
 .middle-container {
     position: relative;
-    width: calc(100% - 470px);
+    width: calc(100% - 280px);
 }
 
 .rightside-container {
@@ -73,9 +85,68 @@
     justify-content: space-evenly;
 }
 
+.recommended-section {
+    background-color: var(--main-bg-color-light);
+    margin-bottom: 20px;
+}
+
+.recommended-content-holder {
+    display: flex;
+    flex-wrap: wrap;
+    /* display: grid;
+    grid-template-columns: repeat(4, 22%); */
+    margin-top: 20px;
+    justify-content: space-evenly;
+}
+
+.popular-section {
+    background-color: var(--main-bg-color-light);
+    margin-bottom: 20px;
+}
+
+.popular-content-holder {
+    display: flex;
+    flex-wrap: wrap;
+    /* display: grid;
+    grid-template-columns: repeat(4, 22%); */
+    margin-top: 20px;
+    justify-content: space-evenly;
+}
+
+.latest-section {
+    background-color: var(--main-bg-color-light);
+    margin-bottom: 20px;
+}
+
+.latest-content-holder {
+    display: flex;
+    flex-wrap: wrap;
+    /* display: grid;
+    grid-template-columns: repeat(4, 22%); */
+    margin-top: 20px;
+    justify-content: space-evenly;
+}
+
+.featured-section {
+    background-color: var(--main-bg-color-light);
+    margin-bottom: 20px;
+}
+
+.featured-content-holder {
+    display: flex;
+    flex-wrap: wrap;
+    /* display: grid;
+    grid-template-columns: repeat(4, 22%); */
+    margin-top: 20px;
+    justify-content: space-evenly;
+}
 
 .caption {
-    background-color: var(--caption-bg-color);
+    position: sticky;
+    top: 59px;
+    z-index: 4;
+    background-color: #171515;
+    /* background-color: var(--caption-bg-color); */
     height: 40px;
     font-size: 20px;
     padding-left: 10px;
@@ -88,6 +159,43 @@
     width: 40px;
     background-image: url("../images/rml-icons/icons_index.png");
     background-position: 40px 277px;
+    background-size: 150px 497px;
+}
+.featured-icon{
+    height: 40px;
+    width: 40px;
+    background-image: url("../images/rml-icons/icons_index.png");
+    background-position: 40px 277px;
+    background-size: 150px 497px;
+}
+
+.latest-icon{
+    height: 40px;
+    width: 40px;
+    background-image: url("../images/rml-icons/icons_index.png");
+    background-position: 40px 277px;
+    background-size: 150px 497px;
+}
+
+.popular-icon{
+    height: 40px;
+    width: 40px;
+    background-image: url("../images/rml-icons/icons_index.png");
+    background-position: 40px 277px;
+    background-size: 150px 497px;
+}
+.featured-icon{
+    height: 40px;
+    width: 40px;
+    background-image: url("../images/rml-icons/icons_index.png");
+    background-position: 40px 277px;
+    background-size: 150px 497px;
+}
+.recommended-icon{
+    height: 40px;
+    width: 40px;
+    background-image: url("../images/rml-icons/icons_index.png");
+    background-position: 40px 212px;
     background-size: 150px 497px;
 }
 
@@ -105,13 +213,16 @@
         justify-content: space-evenly;
     }
 
+    .main-other-two-sections-holder {
+        width: 100%;
+    }
+
     .leftside-container {
         display: none;
         position: absolute;
         margin-left: 0px;
         left: 5px;
         background: black;
-        z-index: 3;
     }
 
     .middle-container {
@@ -173,6 +284,14 @@
 
     .list-item:not(:last-child):not(:first-child) {
         display: none;
+    }
+
+    .nav-user-item:nth-child(2) {
+        display: block;
+    }
+    
+    .nav-user-item:nth-child(3) {
+        display: block;
     }
 
 }

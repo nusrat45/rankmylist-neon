@@ -1,0 +1,144 @@
+.css-toggle-button-hidden {
+    display: none;
+}
+
+.css-toggle-button-hidden-2 {
+    display: none;
+}
+
+.css-toggle-button-hidden:checked + label + .list-topic-dropdown {
+    visibility: visible;
+    height: 669px;
+}
+
+.css-toggle-button-hidden:checked + label + .recommened-channels-dropdown {
+    visibility: visible;
+    height: 225px;
+}
+
+.css-toggle-button-hidden:checked + label + .trending-channels-dropdown {
+    visibility: visible;
+    height: 80px;
+}
+.list-topic-dropdown {
+    transition: all 200ms linear;
+}
+
+.recommened-channels-dropdown {
+    transition: all 150ms linear;
+}
+
+.trending-channels-dropdown {
+    transition: all 100ms linear;
+}
+
+.css-toggle-button-hidden:checked + label + ul {
+    display: block;
+}
+
+
+.css-toggle-button-hidden:checked + .leftside-menubar-items-title {
+    color: red;
+    border-bottom: 1px solid red;
+    text-shadow: var(--main-text-shadow);
+}
+
+.css-toggle-button-hidden:checked + .nav-creatcontent-title {
+    color: red;
+    border-bottom: 2px solid red;
+    text-shadow: var(--main-text-shadow);
+}
+
+.css-toggle-button-hidden:checked + .nav-user-title {
+    color: red;
+    border-bottom: 2px solid red;
+    text-shadow: var(--main-text-shadow);
+}
+
+.css-toggle-button-hidden:checked + label .down-icon {
+    display: none;
+}
+
+.css-toggle-button-hidden:checked + label .up-icon {
+    display: block;
+}
+
+.css-toggle-button-hidden-2:checked + .leftside-container {
+    display: none;
+}
+
+.css-toggle-button-hidden-2:checked + .leftside-container + .main-other-two-sections-holder {
+    width: 100%;
+}
+
+.css-click-btn {
+    display: none;
+}
+
+.css-click-btn:checked + label {
+    color: red;
+    text-shadow: var(--main-text-shadow);
+    transition: all 250ms linear;
+}
+
+/* #rightidemenulisttitle-btn-all:checked + .rightside-content-all {
+    display: grid;
+}
+
+#rightidemenulisttitle-btn-all:checked + .rightside-content-all + #rightidemenulisttitle-btn-featured + .rightside-content-featured {
+    display: none;
+}
+
+#rightidemenulisttitle-btn-all:checked + .rightside-content-all + #rightidemenulisttitle-btn-featured + .rightside-content-featured + #rightidemenulisttitle-btn-popular + .rightside-content-latest {
+    display: none;
+}
+
+#rightidemenulisttitle-btn-all:checked + .rightside-content-all + #rightidemenulisttitle-btn-featured + .rightside-content-featured + #rightidemenulisttitle-btn-popular + .rightside-content-latest + #rightidemenulisttitle-btn-popular + .rightside-content-popular {
+    display: none;
+}
+
+#rightidemenulisttitle-btn-featured:checked + .rightside-content-featured {
+    display: grid;
+}
+
+#rightidemenulisttitle-btn-featured:checked  .rightside-content-all {
+    display: none;
+}
+#rightidemenulisttitle-btn-featured:checked  .rightside-content-latest {
+    display: none;
+}
+#rightidemenulisttitle-btn-featured:checked  .rightside-content-popular {
+    display: none;
+}
+
+#rightidemenulisttitle-btn-latest:checked + .rightside-content-latest {
+    display: grid;
+} */
+
+/* #rightidemenulisttitle-btn-latest:checked ~ .rightside-content-featured {
+    display: none;
+}
+#rightidemenulisttitle-btn-latest:checked ~ .rightside-content-latest {
+    display: none;
+}
+#rightidemenulisttitle-btn-latest:checked ~ .rightside-content-popular {
+    display: none;
+} */
+
+/* #rightidemenulisttitle-btn-popular:checked + .rightside-content-popular {
+    display: grid;
+}  */
+
+/* #rightidemenulisttitle-btn-popular:checked ~ .rightside-content-featured {
+    display: none;
+}
+#rightidemenulisttitle-btn-popular:checked ~ .rightside-content-latest {
+    display: none;
+}
+#rightidemenulisttitle-btn-popular:checked ~ .rightside-content-popular {
+    display: none;
+} */
+
+
+
+

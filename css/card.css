@@ -3,7 +3,7 @@
     flex-direction: column;
     background-color: var(--main-bg-color-dark);
     box-shadow: var(--card-box-shadow);
-    width: 160px;
+    width: 158px;
     height: 250px;
     padding: 6px;
     cursor: pointer;
@@ -32,7 +32,7 @@
 .card-middle {
     border-top-left-radius: 2px;
     border-top-right-radius: 2px;
-    width: 160px;
+    width: 158px;
     height: 160px;
     overflow: hidden;
     overflow: hidden;

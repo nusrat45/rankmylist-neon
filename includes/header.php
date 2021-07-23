@@ -23,11 +23,17 @@
         <div class="nav-right">
             <ul class="nav-item-list-holder flex-container-row">
                 <li class="list-item moreicons-dropdown">
-                    <img src="images/rml-icons/icons_nav.png" alt="">
+                    <input type="checkbox" class="css-toggle-button-hidden" id="create-button-toggle-mobile">
+                    <label for="create-button-toggle-mobile" class="nav-item-hover-style nav-creatcontent-title-mobile" tabindex="1"><img src="images/rml-icons/icons_nav.png" alt=""></label>
+                    <ul class="nav-createcontent-dropdown-mobile">
+                        <li class="createcontent-item">Create List</li>
+                        <li class="createcontent-item">Create Poll</li>
+                        <li class="createcontent-item">Create Bracket</li>
+                    </ul>
                 </li>
                 <li class="list-item creatcontent">
                     <input type="checkbox" class="css-toggle-button-hidden" id="create-button-toggle">
-                    <label for="create-button-toggle" class="nav-item-hover-style nav-creatcontent-title">Create</label>
+                    <label for="create-button-toggle" class="nav-item-hover-style nav-creatcontent-title" tabindex="1">Create</label>
                     <ul class="nav-createcontent-dropdown">
                         <li class="createcontent-item">Create List</li>
                         <li class="createcontent-item">Create Poll</li>
@@ -50,6 +56,8 @@
                     </label>
                     <ul class="nav-user-dropdown">
                         <li class="nav-user-item">Profile</li>
+                        <li class="nav-user-item">Message</li>
+                        <li class="nav-user-item">Notification</li>
                         <li class="nav-user-item">List Manager</li>
                         <li class="nav-user-item">Settings</li>
                         <li class="nav-user-item">Invite</li>

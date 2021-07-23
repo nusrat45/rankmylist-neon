@@ -1,9 +1,19 @@
-.leftside-container {
-    margin-left: 0px;
-    transition: margin-left 100ms linear;
+/* .leftside-container {
+    position: fixed;
+    left: 5px;
+    width: 185px;
+    background-color: black;
+} */
+
+.leftside-container-scroll {
+    height: 100%;
+    width: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
 }
 
 .leftside-menubar-items {
+    background-color: var(--caption-bg-color);
     cursor: pointer;
     font-size: 15px;
     border-bottom: 1px solid black;
@@ -36,7 +46,7 @@
 .nested-dropdown li{
     display: flex;
     align-items: center;
-    border-bottom: 2px solid black;
+    border-bottom: 1.3px solid black;
 }
 
 .list-topic-dropdown li {
@@ -91,8 +101,9 @@
 }
 
 .rml-site-info:hover {
-    text-decoration: underline var(--hover-text-color);
-}
+    color: lightcyan;
+    text-decoration: underline;
+}    
 
 .rml-copyright {
     font-size: 10px;

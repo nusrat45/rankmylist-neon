@@ -1,12 +1,11 @@
-
-<section class="trending-section">
-    <div class="caption trending-caption flex-container-row">
-        <div class="trending-icon"></div>
+<section id="latest-list-section" class="latest-section">
+    <div class="caption latest-caption flex-container-row">
+        <div class="latest-icon"></div>
         <p>Latest Lists</p>
         <div class="gridlist-toggle-icon"><i class="fa fa-th"></i></div>
     </div>
-    <div class="trending-content-holder">
-        <div class="card trending">
+    <div class="latest-content-holder">
+        <div class="card latest">
             <div class="card-top flex-container-column">
                 <div class="content-title">Ranking the Colleges at University of Cambridge</div>
                 <div class="content-creator-link"><a>rankmylist</a></div>
@@ -14,20 +13,20 @@
             <div class="card-middle">
                 <div class="top-rankitem-one">
                     <div class="contentname">List</div>
-                    <div class="top-rankitem-one-image-holder"><img src="images/trending/t1t1.jpg"/></div>
+                    <div class="top-rankitem-one-image-holder"><img src="images/latest/t1t1.jpg"/></div>
                 </div>
             </div>
             <div class="card-bottom flex-container-column">
                 <div class="other-items-holder flex-container-row">
                     <div class="top-other-rankmitems">
                         <div class="top-other-rankmitems-image-holder">
-                            <img src="images/trending/t1t2.jpg"/>
+                            <img src="images/latest/t1t2.jpg"/>
                         </div>
                         <div class="top-other-rankmitems-position-title">#2</div>
                     </div>
                     <div class="top-other-rankmitems">
                         <div class="top-other-rankmitems-image-holder">
-                            <img src="images/trending/t1t3.jpg"/>
+                            <img src="images/latest/t1t3.jpg"/>
                         </div>
                         <div class="top-other-rankmitems-position-title">#3</div>
                     </div>
@@ -45,7 +44,7 @@
                 </div>
             </div>
         </div>
-        <div class="card trending">
+        <div class="card latest">
             <div class="card-top flex-container-column">
                 <div class="content-title">Ranking every World Cup Song</div>
                 <div class="content-creator-link"><a>yamin</a></div>
@@ -53,20 +52,20 @@
             <div class="card-middle">
                 <div class="top-rankitem-one">
                     <div class="contentname">List</div>
-                    <div class="top-rankitem-one-image-holder"><img src="images/trending/t2t1.jpg"/></div>
+                    <div class="top-rankitem-one-image-holder"><img src="images/latest/t2t1.jpg"/></div>
                 </div>
             </div>
             <div class="card-bottom flex-container-column">
                 <div class="other-items-holder flex-container-row">
                     <div class="top-other-rankmitems">
                         <div class="top-other-rankmitems-image-holder">
-                            <img src="images/trending/t2t2.jpg"/>
+                            <img src="images/latest/t2t2.jpg"/>
                         </div>
                         <div class="top-other-rankmitems-position-title">#2</div>
                     </div>
                     <div class="top-other-rankmitems">
                         <div class="top-other-rankmitems-image-holder">
-                            <img src="images/trending/t2t3.jpg"/>
+                            <img src="images/latest/t2t3.jpg"/>
                         </div>
                         <div class="top-other-rankmitems-position-title">#3</div>
                     </div>
@@ -84,7 +83,7 @@
                 </div>
             </div>
         </div>     
-        <div class="card trending">
+        <div class="card latest">
             <div class="card-top flex-container-column">
                 <div class="content-title">Rank the Best Feluda Stories</div>
                 <div class="content-creator-link"><a>yamin</a></div>
@@ -92,20 +91,20 @@
             <div class="card-middle">
                 <div class="top-rankitem-one">
                     <div class="contentname">List</div>
-                    <div class="top-rankitem-one-image-holder"><img src="images/trending/t3t1.jpg"/></div>
+                    <div class="top-rankitem-one-image-holder"><img src="images/latest/t3t1.jpg"/></div>
                 </div>
             </div>
             <div class="card-bottom flex-container-column">
                 <div class="other-items-holder flex-container-row">
                     <div class="top-other-rankmitems">
                         <div class="top-other-rankmitems-image-holder">
-                            <img src="images/trending/t3t2.jpg"/>
+                            <img src="images/latest/t3t2.jpg"/>
                         </div>
                         <div class="top-other-rankmitems-position-title">#2</div>
                     </div>
                     <div class="top-other-rankmitems">
                         <div class="top-other-rankmitems-image-holder">
-                            <img src="images/trending/t3t3.jpg"/>
+                            <img src="images/latest/t3t3.jpg"/>
                         </div>
                         <div class="top-other-rankmitems-position-title">#3</div>
                     </div>
@@ -123,7 +122,7 @@
                 </div>
             </div>
         </div>     
-        <div class="card trending">
+        <div class="card latest">
             <div class="card-top flex-container-column">
                 <div class="content-title">Best Weapons in PUBG Mobile?</div>
                 <div class="content-creator-link"><a>yamin</a></div>
@@ -131,20 +130,20 @@
             <div class="card-middle">
                 <div class="top-rankitem-one">
                     <div class="contentname">List</div>
-                    <div class="top-rankitem-one-image-holder"><img src="images/trending/t4t1.jpg"/></div>
+                    <div class="top-rankitem-one-image-holder"><img src="images/latest/t4t1.jpg"/></div>
                 </div>
             </div>
             <div class="card-bottom flex-container-column">
                 <div class="other-items-holder flex-container-row">
                     <div class="top-other-rankmitems">
                         <div class="top-other-rankmitems-image-holder">
-                            <img src="images/trending/t4t2.jpg"/>
+                            <img src="images/latest/t4t2.jpg"/>
                         </div>
                         <div class="top-other-rankmitems-position-title">#2</div>
                     </div>
                     <div class="top-other-rankmitems">
                         <div class="top-other-rankmitems-image-holder">
-                            <img src="images/trending/t4t3.jpg"/>
+                            <img src="images/latest/t4t3.jpg"/>
                         </div>
                         <div class="top-other-rankmitems-position-title">#3</div>
                     </div>
@@ -162,7 +161,7 @@
                 </div>
             </div>
         </div>     
-        <div class="card trending">
+        <div class="card latest">
             <div class="card-top flex-container-column">
                 <div class="content-title">Best Generation 1 Pokemon</div>
                 <div class="content-creator-link"><a>rankmylist</a></div>
@@ -170,20 +169,20 @@
             <div class="card-middle">
                 <div class="top-rankitem-one">
                     <div class="contentname">List</div>
-                    <div class="top-rankitem-one-image-holder"><img src="images/trending/t5t1.jpg"/></div>
+                    <div class="top-rankitem-one-image-holder"><img src="images/latest/t5t1.jpg"/></div>
                 </div>
             </div>
             <div class="card-bottom flex-container-column">
                 <div class="other-items-holder flex-container-row">
                     <div class="top-other-rankmitems">
                         <div class="top-other-rankmitems-image-holder">
-                            <img src="images/trending/t5t2.jpg"/>
+                            <img src="images/latest/t5t2.jpg"/>
                         </div>
                         <div class="top-other-rankmitems-position-title">#2</div>
                     </div>
                     <div class="top-other-rankmitems">
                         <div class="top-other-rankmitems-image-holder">
-                            <img src="images/trending/t5t3.jpg"/>
+                            <img src="images/latest/t5t3.jpg"/>
                         </div>
                         <div class="top-other-rankmitems-position-title">#3</div>
                     </div>
@@ -201,7 +200,7 @@
                 </div>
             </div>
         </div>     
-        <div class="card trending">
+        <div class="card latest">
             <div class="card-top flex-container-column">
                 <div class="content-title">Ranking the Bangladeshi chips brands</div>
                 <div class="content-creator-link"><a>mulan</a></div>
@@ -209,20 +208,20 @@
             <div class="card-middle">
                 <div class="top-rankitem-one">
                     <div class="contentname">List</div>
-                    <div class="top-rankitem-one-image-holder"><img src="images/trending/t6t1.jpg"/></div>
+                    <div class="top-rankitem-one-image-holder"><img src="images/latest/t6t1.jpg"/></div>
                 </div>
             </div>
             <div class="card-bottom flex-container-column">
                 <div class="other-items-holder flex-container-row">
                     <div class="top-other-rankmitems">
                         <div class="top-other-rankmitems-image-holder">
-                            <img src="images/trending/t6t2.jpg"/>
+                            <img src="images/latest/t6t2.jpg"/>
                         </div>
                         <div class="top-other-rankmitems-position-title">#2</div>
                     </div>
                     <div class="top-other-rankmitems">
                         <div class="top-other-rankmitems-image-holder">
-                            <img src="images/trending/t6t3.jpg"/>
+                            <img src="images/latest/t6t3.jpg"/>
                         </div>
                         <div class="top-other-rankmitems-position-title">#3</div>
                     </div>
@@ -240,7 +239,7 @@
                 </div>
             </div>
         </div>     
-        <div class="card trending">
+        <div class="card latest">
             <div class="card-top flex-container-column">
                 <div class="content-title">Funniest "Would I Lie to You?" Stories</div>
                 <div class="content-creator-link"><a>yamin</a></div>
@@ -248,20 +247,20 @@
             <div class="card-middle">
                 <div class="top-rankitem-one">
                     <div class="contentname">List</div>
-                    <div class="top-rankitem-one-image-holder"><img src="images/trending/t7t1.jpg"/></div>
+                    <div class="top-rankitem-one-image-holder"><img src="images/latest/t7t1.jpg"/></div>
                 </div>
             </div>
             <div class="card-bottom flex-container-column">
                 <div class="other-items-holder flex-container-row">
                     <div class="top-other-rankmitems">
                         <div class="top-other-rankmitems-image-holder">
-                            <img src="images/trending/t7t2.jpg"/>
+                            <img src="images/latest/t7t2.jpg"/>
                         </div>
                         <div class="top-other-rankmitems-position-title">#2</div>
                     </div>
                     <div class="top-other-rankmitems">
                         <div class="top-other-rankmitems-image-holder">
-                            <img src="images/trending/t7t3.jpg"/>
+                            <img src="images/latest/t7t3.jpg"/>
                         </div>
                         <div class="top-other-rankmitems-position-title">#3</div>
                     </div>
@@ -279,7 +278,7 @@
                 </div>
             </div>
         </div>    
-        <div class="card trending">
+        <div class="card latest">
             <div class="card-top flex-container-column">
                 <div class="content-title">Best Mortal Kombat Characters</div>
                 <div class="content-creator-link"><a>rankmylist</a></div>
@@ -287,20 +286,20 @@
             <div class="card-middle">
                 <div class="top-rankitem-one">
                     <div class="contentname">List</div>
-                    <div class="top-rankitem-one-image-holder"><img src="images/trending/t8t1.jpg"/></div>
+                    <div class="top-rankitem-one-image-holder"><img src="images/latest/t8t1.jpg"/></div>
                 </div>
             </div>
             <div class="card-bottom flex-container-column">
                 <div class="other-items-holder flex-container-row">
                     <div class="top-other-rankmitems">
                         <div class="top-other-rankmitems-image-holder">
-                            <img src="images/trending/t8t2.jpg"/>
+                            <img src="images/latest/t8t2.jpg"/>
                         </div>
                         <div class="top-other-rankmitems-position-title">#2</div>
                     </div>
                     <div class="top-other-rankmitems">
                         <div class="top-other-rankmitems-image-holder">
-                            <img src="images/trending/t8t3.jpg"/>
+                            <img src="images/latest/t8t3.jpg"/>
                         </div>
                         <div class="top-other-rankmitems-position-title">#3</div>
                     </div>
@@ -318,7 +317,7 @@
                 </div>
             </div>
         </div>     
-        <div class="card trending">
+        <div class="card latest">
             <div class="card-top flex-container-column">
                 <div class="content-title">Dragons of Ice and Fire</div>
                 <div class="content-creator-link"><a>yasir</a></div>
@@ -326,20 +325,20 @@
             <div class="card-middle">
                 <div class="top-rankitem-one">
                     <div class="contentname">List</div>
-                    <div class="top-rankitem-one-image-holder"><img src="images/trending/t9t1.jpg"/></div>
+                    <div class="top-rankitem-one-image-holder"><img src="images/latest/t9t1.jpg"/></div>
                 </div>
             </div>
             <div class="card-bottom flex-container-column">
                 <div class="other-items-holder flex-container-row">
                     <div class="top-other-rankmitems">
                         <div class="top-other-rankmitems-image-holder">
-                            <img src="images/trending/t9t2.jpg"/>
+                            <img src="images/latest/t9t2.jpg"/>
                         </div>
                         <div class="top-other-rankmitems-position-title">#2</div>
                     </div>
                     <div class="top-other-rankmitems">
                         <div class="top-other-rankmitems-image-holder">
-                            <img src="images/trending/t9t3.jpg"/>
+                            <img src="images/latest/t9t3.jpg"/>
                         </div>
                         <div class="top-other-rankmitems-position-title">#3</div>
                     </div>
@@ -357,7 +356,7 @@
                 </div>
             </div>
         </div>
-        <div class="card trending">
+        <div class="card latest">
             <div class="card-top flex-container-column">
                 <div class="content-title">Best Online Judge ever</div>
                 <div class="content-creator-link"><a>masudur_rahman</a></div>
@@ -365,20 +364,20 @@
             <div class="card-middle">
                 <div class="top-rankitem-one">
                     <div class="contentname">List</div>
-                    <div class="top-rankitem-one-image-holder"><img src="images/trending/t10t1.jpg"/></div>
+                    <div class="top-rankitem-one-image-holder"><img src="images/latest/t10t1.jpg"/></div>
                 </div>
             </div>
             <div class="card-bottom flex-container-column">
                 <div class="other-items-holder flex-container-row">
                     <div class="top-other-rankmitems">
                         <div class="top-other-rankmitems-image-holder">
-                            <img src="images/trending/t10t2.jpg"/>
+                            <img src="images/latest/t10t2.jpg"/>
                         </div>
                         <div class="top-other-rankmitems-position-title">#2</div>
                     </div>
                     <div class="top-other-rankmitems">
                         <div class="top-other-rankmitems-image-holder">
-                            <img src="images/trending/t10t3.jpg"/>
+                            <img src="images/latest/t10t3.jpg"/>
                         </div>
                         <div class="top-other-rankmitems-position-title">#3</div>
                     </div>
@@ -396,7 +395,7 @@
                 </div>
             </div>
         </div>
-        <div class="card trending">
+        <div class="card latest">
             <div class="card-top flex-container-column">
                 <div class="content-title">best bangladeshi movies ever</div>
                 <div class="content-creator-link"><a>himel_islam</a></div>
@@ -404,20 +403,20 @@
             <div class="card-middle">
                 <div class="top-rankitem-one">
                     <div class="contentname">List</div>
-                    <div class="top-rankitem-one-image-holder"><img src="images/trending/t11t1.jpg"/></div>
+                    <div class="top-rankitem-one-image-holder"><img src="images/latest/t11t1.jpg"/></div>
                 </div>
             </div>
             <div class="card-bottom flex-container-column">
                 <div class="other-items-holder flex-container-row">
                     <div class="top-other-rankmitems">
                         <div class="top-other-rankmitems-image-holder">
-                            <img src="images/trending/t11t2.jpg"/>
+                            <img src="images/latest/t11t2.jpg"/>
                         </div>
                         <div class="top-other-rankmitems-position-title">#2</div>
                     </div>
                     <div class="top-other-rankmitems">
                         <div class="top-other-rankmitems-image-holder">
-                            <img src="images/trending/t11t3.jpg"/>
+                            <img src="images/latest/t11t3.jpg"/>
                         </div>
                         <div class="top-other-rankmitems-position-title">#3</div>
                     </div>
@@ -435,7 +434,7 @@
                 </div>
             </div>
         </div>
-        <div class="card trending">
+        <div class="card latest">
             <div class="card-top flex-container-column">
                 <div class="content-title">Best Age of Empires II Civilizations</div>
                 <div class="content-creator-link"><a>yasir</a></div>
@@ -443,20 +442,20 @@
             <div class="card-middle">
                 <div class="top-rankitem-one">
                     <div class="contentname">List</div>
-                    <div class="top-rankitem-one-image-holder"><img src="images/trending/t12t1.jpg"/></div>
+                    <div class="top-rankitem-one-image-holder"><img src="images/latest/t12t1.jpg"/></div>
                 </div>
             </div>
             <div class="card-bottom flex-container-column">
                 <div class="other-items-holder flex-container-row">
                     <div class="top-other-rankmitems">
                         <div class="top-other-rankmitems-image-holder">
-                            <img src="images/trending/t12t2.jpg"/>
+                            <img src="images/latest/t12t2.jpg"/>
                         </div>
                         <div class="top-other-rankmitems-position-title">#2</div>
                     </div>
                     <div class="top-other-rankmitems">
                         <div class="top-other-rankmitems-image-holder">
-                            <img src="images/trending/t12t3.jpg"/>
+                            <img src="images/latest/t12t3.jpg"/>
                         </div>
                         <div class="top-other-rankmitems-position-title">#3</div>
                     </div>

@@ -1,4 +1,4 @@
-<section class="trending-section">
+<section id="trending-list-section" class="trending-section">
     <div class="caption trending-caption flex-container-row">
         <div class="trending-icon"></div>
         <p>Trending Lists</p>

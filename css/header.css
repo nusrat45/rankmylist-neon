@@ -1,6 +1,6 @@
 .header-section {
     position: fixed;
-    z-index: 2;
+    z-index: 10;
     width: 100%;
     height: 50px;
     background-color: var(--main-bg-color-dark);
@@ -126,7 +126,7 @@
 
 .nav-item-list-holder {
     margin: 0;
-    /* margin-top: 10px; */
+    height: 30px;
     list-style: none;
     font-size: 16px;
 }
@@ -152,10 +152,14 @@
     border-bottom: 2px solid orangered;
 }
 
+.nav-item-hover-style {
+    border-bottom: 2px solid transparent;
+}
+
 /* NAV ITEM -CREATE CONTENT */
 .nav-item-list-holder .creatcontent {
     width: 60px;
-    height: 28px;
+    /* height: 28px; */
     line-height: 1.5;
     margin-top: 0px;
     cursor: pointer;
@@ -165,6 +169,8 @@
 .nav-creatcontent-title {
     cursor: pointer;
     width: 60px;
+    /* height: 30px; */
+    line-height: 29px;
     text-align: center;
 }
 
@@ -191,6 +197,26 @@
     padding-left: 17px;
 }
 
+.nav-item-list-holder .nav-createcontent-dropdown-mobile {
+    display: none;
+    position: absolute;
+    list-style: none;
+    background-color: black;
+    top: 45px;
+    width: 150px;
+    right: 0px;
+    box-shadow: var(--main-text-shadow);
+}
+
+.nav-createcontent-dropdown-mobile .createcontent-item {
+    font-size: 14px;
+    padding: 4px;
+    border-bottom: 1px solid red;
+    padding-left: 17px;
+}
+
+
+
 /* NAV ITEM -MESSAGE */
 .message {
     width: 40px;
@@ -210,7 +236,7 @@
 /* NAV ITEM -NOTIFICATION */
 .notification {
     width: 40px;
-    height: 28px;
+    /* height: 28px; */
     text-align: center;
 }
 
@@ -224,9 +250,14 @@
 }
 
 /* NAV ITEM - USER */
+
+.nav-user-title {
+    /* height: 30px; */
+}
+
 .nav-item-list-holder .nav-item-user {
     width: 100px;
-    height: 28px;
+    /* height: 28px; */
     /* margin-left: 5px; */
 }
 .nav-userpic {
@@ -234,7 +265,7 @@
     height: 26px;
     border-radius: 50%;
     overflow: hidden;
-    margin-top: 0px;
+    margin-top: 2px;
 }
 
 .nav-userpic img {
@@ -244,8 +275,7 @@
 .nav-username {
     font-size: 14px;
     margin-left: 5px;
-    margin-top: 6px;
-
+    margin-top: 9px;
 }
 
 .nav-user-dropdown {
@@ -259,6 +289,14 @@
     box-shadow: var(--main-box-shadow);
 }
 
+.nav-user-item:nth-child(2) {
+    display: none;
+}
+
+.nav-user-item:nth-child(3) {
+    display: none;
+}
+
 .nav-user-item {
     font-size: 14px;
     padding: 4px;
@@ -270,4 +308,19 @@ li > ul > li:not(.recommendedchannel-seemore):hover {
     color: orangered;
     text-shadow: var(--main-text-shadow);
 }
+
+li > ul > li > a {
+    color: #eeeeee;
+    opacity: 0.8;
+}
+
+li > ul > li > a:hover {
+    color: orangered;
+    text-shadow: var(--main-text-shadow);
+}
+
+li > ul > li:last-child {
+    border: none;
+}
+
 
